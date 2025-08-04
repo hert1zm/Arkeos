@@ -22,6 +22,8 @@
 
 È progettato per essere **scalabile**, **reattivo** ed estremamente **user-friendly**, grazie all'interfaccia grafica accessibile da browser. L'obiettivo è creare un ponte tra hardware eterogeneo, semplificandone la comunicazione, la visualizzazione e il controllo.
 
+> 📘 Per informazioni più dettagliate riguardo Arkeos consultare la documentazione `Arkeos/docs/Arkeos_documentazione.pdf`
+
 ---
 
 ## ⚙️ Architettura del Sistema
