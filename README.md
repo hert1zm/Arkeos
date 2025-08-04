@@ -46,18 +46,6 @@
 
 ---
 
-## 🧭 Naviga i flussi
-
-Il cuore logico del progetto è costruito con **flussi Node-RED**, modulari e documentati.  
-Trovi i file `.json` nella cartella `/flows`.
-
-Esempi:
-- `esp32_control.json`: flusso per acquisizione e comandi
-- `plc_comm.json`: interfaccia con PLC
-- `telegram_bot.json`: integrazione bot
-
----
-
 ## 📥 Installazione
 
 > ⚠️ Requisiti: Node-RED, Python 3.x, ESP32 con firmware compatibile, Raspberry Pi OS
