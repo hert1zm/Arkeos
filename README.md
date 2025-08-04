@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/BFbMfse.png" alt="Arkeos logo" width="100"/>
+  <img src="docs/logo_doppio.png" alt="Arkeos logo" width="500"/>
 </p>
 
 <h1 align="center">Arkeos</h1>
@@ -66,7 +66,7 @@ git clone https://github.com/hert1zm/Arkeos.git
 ```
 4. Aprire **Node-RED** dal browser (disponibile su `http://localhost:1880`)
 5. Menù > Import > Select a file to import
-6. Importare `arkeos/nodered/arkeos-flows.json`
+6. Importare `Arkeos/nodered/arkeos-flows.json`
 7. Cliccare su **Importa** e poi su **Deploy**
 
 > ✔️ Assicurarsi infine di avere le corrette misure della dashboard impostate su Node-RED per garantire un'esperienza ottimale di visualizzazione:
