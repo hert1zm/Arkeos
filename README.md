@@ -27,9 +27,9 @@
 ## ⚙️ Architettura del Sistema
 
 - **Raspberry Pi 5** come hub centrale
-- **ESP32** per sensori e attuatori remoti via Wi-Fi
-- **PLC** industriale per la logica di controllo
-- **Node-RED** come orchestratore visuale, event-driven
+- **ESP32** per sensori e attuatori remoti tramite MQTT
+- **PLC** industriale per la logica di controllo macchina
+- **Node-RED** come cuore e cervello del progetto
 - **Telegram Bot** per notifiche e comandi remoti
 
 ![Architettura](docs/architettura.png)
