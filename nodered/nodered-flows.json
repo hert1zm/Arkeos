@@ -1,1 +1,5741 @@
-h
+[
+    {
+        "id": "c97341d47de293e5",
+        "type": "tab",
+        "label": "arkeos v2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6d5b2e95145a38d4",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "name": "Temperatura",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dc3d2a12b05a9162",
+            "ee528d5ad7388c19",
+            "a4cc076bf25e2290",
+            "c3035b653e25cc86",
+            "1fbf3d5756baef1a",
+            "ab7b1a80b15830f3",
+            "84c8d019022578a0",
+            "39a34134fb55b376",
+            "95e166fc5b0f62bb",
+            "10c5e1ce46a680c8",
+            "4f47cbc01b9dec27",
+            "1265796d162135e0",
+            "b9f3378334dcaf59",
+            "a3d0e4a202580d48",
+            "c0690792696c9e73",
+            "bc734888071a831c",
+            "8e99b55f7201db4b",
+            "edbe504e7fcff84d",
+            "8a93d4fc0b6581e5",
+            "a12714661ad2a129"
+        ],
+        "x": 34,
+        "y": 79,
+        "w": 1192,
+        "h": 302
+    },
+    {
+        "id": "34d751827bbde5a3",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "name": "Umidità",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b0f32feb17263709",
+            "7a2251f2657ec426",
+            "6041c8da2210c00d",
+            "ad6826a41c037887",
+            "7842e97b3c879e44",
+            "129261912cf1ecc9",
+            "1fd630a65b05463b",
+            "3b4e07dc592c1856",
+            "2553774d4ed48f8d",
+            "08f3ca049be3dc09",
+            "eebda61c6380f0e1",
+            "2c16f38eb12c49c9",
+            "292617a06a409d51",
+            "b2c7db9e7ff42e47",
+            "0a76710ab73745d3",
+            "66c7692912017b81",
+            "9362bf9c3523e46e",
+            "ab819320321dfab3",
+            "7c2a1b7f891408c5",
+            "037c10eb64ecabca"
+        ],
+        "x": 34,
+        "y": 399,
+        "w": 1212,
+        "h": 302
+    },
+    {
+        "id": "e458dd459be89521",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "name": "Gas",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c2aeb64eb65d5f4d",
+            "d8f3f27b20372c3e",
+            "9e6654f63b1a4e3e",
+            "5904bb661d38ef99",
+            "bef9e6991d7a78ef",
+            "1fa8d8ed0cbe8b0d",
+            "859d48d8c76a2585",
+            "ee31144251f1c9df",
+            "dbba4486ce25efd1",
+            "efce76be61213c60",
+            "7c7409e6e4a25c6c",
+            "0b9479aba9f6eec5",
+            "f0c7c148de625049",
+            "0162fd4128d1c72e",
+            "386c075fc3c7b9df",
+            "6bc20d8c759770b0",
+            "fb077ee6aa733f93",
+            "5478266be1931f64",
+            "d3cf4fde8646acf9",
+            "674412a01fc5bc2a"
+        ],
+        "x": 1254,
+        "y": 79,
+        "w": 1212,
+        "h": 302
+    },
+    {
+        "id": "7a92e31d6a71d8a6",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "name": "Vibrazioni",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8bdbb3a52a071e71",
+            "4065bd4c1101c343",
+            "ab214347ca6e12d6",
+            "8b98cb5cb4c2ea3d",
+            "9ac70f7db16b81b1",
+            "71371913bee49dd2",
+            "e698895c4250eb5f",
+            "504d625891c8bf6a",
+            "7216fa7514f527ec",
+            "d2e57d68432cee1a",
+            "710e7f50e4d80be8"
+        ],
+        "x": 1274,
+        "y": 399,
+        "w": 752,
+        "h": 222
+    },
+    {
+        "id": "e5afb7b9c962e73f",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "name": "Dashboard",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7d3196b9a1c7221c",
+            "3670826c7aa60691",
+            "b9b951e18379f8c6",
+            "0ed2eb39ccdb3987",
+            "fe3ae5073844997a",
+            "08fdb6a16aa44cd6"
+        ],
+        "x": 1008,
+        "y": 733,
+        "w": 1404,
+        "h": 1554
+    },
+    {
+        "id": "2f95189a0270d67e",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "name": "Gestione comandi Telegram",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2efdd4366e369cc2",
+            "a25565ceedfde589",
+            "df5fc40e4e5dc030",
+            "7ad45629fe82408f",
+            "a39ef19ec921c57c",
+            "c9255faae7cd518d",
+            "acffd0cf05040f20",
+            "2d0ee4fd55baaaf8",
+            "8518720dcdc5ae42",
+            "87d9b382bf6864a4",
+            "efa229e090473144",
+            "85a50b9d923b360a",
+            "5cb1631b423e5680",
+            "29c02324fc9e036c",
+            "ed9d653d33d77d6e",
+            "d4d28d457baba0d4",
+            "bf35d27084c3b44f",
+            "258e649fadd5d2d5",
+            "bf405cc4753ea30c",
+            "742c6268a5963b51",
+            "a093a51f6da6b681",
+            "52d0ebee01392fda",
+            "0eab17efb791b2f8",
+            "caefb5763f114814",
+            "2f334a760ed8a539",
+            "63829463197fe42d",
+            "cbf918f86bd56ea5",
+            "4e71b494c38bde29",
+            "2830f4cc043b1f8c",
+            "715c3ee095525838",
+            "86f45386315f1b9f",
+            "44ea33946473afb1",
+            "4e00d0ff9da953bf"
+        ],
+        "x": 34,
+        "y": 719,
+        "w": 932,
+        "h": 562
+    },
+    {
+        "id": "3670826c7aa60691",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "g": "e5afb7b9c962e73f",
+        "name": "Gruppo Ambiente",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d64430cf19c016a0",
+            "abb344e11a98f3e5",
+            "acdea64c0eae1269",
+            "6bc55bc69f522b0e",
+            "b841f64a4881edb7",
+            "da27925bc37f6458",
+            "f34c54e4b8c34af0",
+            "41edce603c32d4a7",
+            "72cba4412484cb6b",
+            "d0ffc85cb35e9051",
+            "60cbe19fdb3aa0bb",
+            "dd97cf67c5dc619c",
+            "3304310aa8fa0e63",
+            "7463cab237d9578c",
+            "a251dd011bccb92d",
+            "27476de772940440",
+            "30c8354fa7de8007",
+            "d0a2204b0ed16fdf"
+        ],
+        "x": 1034,
+        "y": 1819,
+        "w": 672,
+        "h": 442
+    },
+    {
+        "id": "7d3196b9a1c7221c",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "g": "e5afb7b9c962e73f",
+        "name": "Init",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5462dc019964e455",
+            "18861318065bec07",
+            "60352cddde227f27",
+            "d0e7444d1f7ccf4b"
+        ],
+        "x": 1034,
+        "y": 759,
+        "w": 712,
+        "h": 142
+    },
+    {
+        "id": "0ed2eb39ccdb3987",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "g": "e5afb7b9c962e73f",
+        "name": "Gruppo Allarmi",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "792336d40cb84f9f",
+            "32d5eb07f704a334",
+            "08580c08401f7af8",
+            "03f84997ccb62f33",
+            "24863120409b0c9d",
+            "5bc4f190b2cd010b",
+            "d8061327616ef78c",
+            "6d3135e2aeae71e8",
+            "60a4c837b35e7b6c",
+            "a0d07343a816107f",
+            "4d6f6d2a02faa4e0",
+            "94b95bf9da508957",
+            "0f57b0359a39790e",
+            "98c00c6abef40446",
+            "2aa67375a3e94667",
+            "c82270bfda0f9d84"
+        ],
+        "x": 1774,
+        "y": 759,
+        "w": 612,
+        "h": 382
+    },
+    {
+        "id": "fe3ae5073844997a",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "g": "e5afb7b9c962e73f",
+        "name": "Gruppo Logs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5cdb18a04286ca52",
+            "0fd42c4119bae984",
+            "740e196b4d9d3d1e",
+            "8f16d94635847729",
+            "f9708dbe8fc91e9f",
+            "65a089fc6eb8b038",
+            "efe061f746dbe530",
+            "ec04bad9c00f7308",
+            "b48ae355fbb0c1c2",
+            "838b8ebd82f9632a",
+            "4921a29bd2d0ec59",
+            "d2e5ec1a7abb692c",
+            "77b5424ceb241f49"
+        ],
+        "x": 1774,
+        "y": 1159,
+        "w": 592,
+        "h": 322
+    },
+    {
+        "id": "b9b951e18379f8c6",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "g": "e5afb7b9c962e73f",
+        "name": "Gruppo Welcome",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "71a0514228a1815b",
+            "eee6904860b7fba4",
+            "40e3820525f38953",
+            "05b8f5562d3806f6",
+            "cb96da356b06c55b",
+            "1c6fca34f9d31c53",
+            "f7fa94a49746171f",
+            "161be12378996f66",
+            "9dc5175a83a212da",
+            "fc40bff9c62c627e",
+            "4f19dadf3a188c5d",
+            "fe10c012e3780bf3",
+            "1bc782e1daaa08f0",
+            "6e40cf58846b8682",
+            "a909db40f12413f5",
+            "a78a70bd7155150d",
+            "1e6e60061038e4e5",
+            "a8b34a92c50f35fd",
+            "f37c364fe8afe9e0",
+            "0c6f46648f30deea",
+            "b4140a7428747dbd",
+            "9c8247da6ab7fe13",
+            "c0834bd1086a95a8",
+            "e4de848930704d08",
+            "b6bbc8bdbbf453a1",
+            "fbe53b703360dd7b",
+            "39da363edd5c673d",
+            "3d021bb204cff094",
+            "e9351af71acc0c5e",
+            "813af4bffc0e7cdf",
+            "68750d72afbf61f5",
+            "b4206d08555dcf25",
+            "ba6d1aedd8ddcabc",
+            "c3cda767bf9615a8",
+            "7b186ccf69a2058a",
+            "8f31b6c97d9b5eb7",
+            "776b2db5ba48054d",
+            "9046b22a84cf0aa0",
+            "1e74618efb357aa1",
+            "5f62f71b87787bb3",
+            "7810e5ebe356fd6e",
+            "cafeadfbf7ec5d4b"
+        ],
+        "x": 1034,
+        "y": 919,
+        "w": 712,
+        "h": 882
+    },
+    {
+        "id": "08fdb6a16aa44cd6",
+        "type": "group",
+        "z": "c97341d47de293e5",
+        "g": "e5afb7b9c962e73f",
+        "name": "Comandi Manuali",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "229e237a2c811d4e",
+            "d3a530bb79df4066",
+            "88579d83bbba6752",
+            "b9855bd053997e9b",
+            "5d4d64f63a85c6de",
+            "4b095132ee88406e",
+            "74e78f1e90cb85a2",
+            "4c437069bf507aee",
+            "22eead1518e26610",
+            "320f90d19d60028f",
+            "1a6ee0bab1b60d3b",
+            "62acae9912e79cb8",
+            "290fbcc14b9dfa48",
+            "9d4b30494ed0c92c",
+            "c8f53fa6c7112096",
+            "f29d50119a77a969",
+            "9565ef670065a6ed",
+            "730fdaaf00c5ac1c",
+            "a8a01a53e57d568c"
+        ],
+        "x": 1774,
+        "y": 1499,
+        "w": 492,
+        "h": 482
+    },
+    {
+        "id": "dc3d2a12b05a9162",
+        "type": "mqtt in",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Temp ESP32",
+        "topic": "arkeos/env/temp",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "mqtt_broker",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "ee528d5ad7388c19",
+                "a12714661ad2a129"
+            ]
+        ]
+    },
+    {
+        "id": "ee528d5ad7388c19",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Store Temp",
+        "func": "flow.set('last_temp', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4cc076bf25e2290",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Invia Allarme",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 670,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3035b653e25cc86",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "42°C",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "42",
+        "payloadType": "num",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "ee528d5ad7388c19",
+                "a12714661ad2a129"
+            ]
+        ]
+    },
+    {
+        "id": "b0f32feb17263709",
+        "type": "mqtt in",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Umidità ESP32",
+        "topic": "arkeos/env/hum",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "mqtt_broker",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "7a2251f2657ec426",
+                "6041c8da2210c00d"
+            ]
+        ]
+    },
+    {
+        "id": "7a2251f2657ec426",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Store Hum",
+        "func": "flow.set('last_hum', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6041c8da2210c00d",
+        "type": "switch",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Check Soglia Hum",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "85",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 500,
+        "wires": [
+            [
+                "7842e97b3c879e44"
+            ],
+            [
+                "08f3ca049be3dc09"
+            ]
+        ]
+    },
+    {
+        "id": "ad6826a41c037887",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Invia Allarme",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 690,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7842e97b3c879e44",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Allarme",
+        "func": "let hum = flow.get('last_hum') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nlet nuovoAllarme = {\n    messaggio: `⚠️💧 AL102 Umidità elevata (${hum}%)`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - ⚠️💧 AL102 Umidità elevata (${hum}%)`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n  chatId: chatId,\n  type: \"message\",\n  content: `*⚠️💧 ATTENZIONE AL102* - Umidità elevata: *${hum}%* !`,\n  options: {\n    parse_mode: \"Markdown\"\n  }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 480,
+        "wires": [
+            [
+                "ad6826a41c037887",
+                "7c2a1b7f891408c5"
+            ]
+        ]
+    },
+    {
+        "id": "129261912cf1ecc9",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "83%",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "83",
+        "payloadType": "num",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "6041c8da2210c00d",
+                "7a2251f2657ec426"
+            ]
+        ]
+    },
+    {
+        "id": "c2aeb64eb65d5f4d",
+        "type": "mqtt in",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Gas Lvl ESP32",
+        "topic": "arkeos/env/gas",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "mqtt_broker",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1360,
+        "y": 120,
+        "wires": [
+            [
+                "d8f3f27b20372c3e",
+                "9e6654f63b1a4e3e"
+            ]
+        ]
+    },
+    {
+        "id": "d8f3f27b20372c3e",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Store Gas",
+        "func": "flow.set('last_gas', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e6654f63b1a4e3e",
+        "type": "switch",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Check Soglia Gas",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "300",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1590,
+        "y": 180,
+        "wires": [
+            [
+                "bef9e6991d7a78ef"
+            ],
+            [
+                "efce76be61213c60"
+            ]
+        ]
+    },
+    {
+        "id": "5904bb661d38ef99",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Invia Allarme",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1910,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bef9e6991d7a78ef",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Allarme",
+        "func": "let gas = flow.get('last_gas') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nlet nuovoAllarme = {\n  messaggio: `⚠️💨 AL103 Presenza di gas elevata (${gas}ppm)`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - ⚠️💨 AL103 Presenza di gas elevata (${gas}ppm)`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n  chatId: chatId,\n  type: \"message\",\n  content: `*⚠️💨 ATTENZIONE* - Presenza di gas elevata: *${gas}ppm* !`,\n  options: {\n    parse_mode: \"Markdown\"\n  }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 160,
+        "wires": [
+            [
+                "5904bb661d38ef99",
+                "d3cf4fde8646acf9"
+            ]
+        ]
+    },
+    {
+        "id": "1fa8d8ed0cbe8b0d",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "263ppm",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "263",
+        "payloadType": "num",
+        "x": 1360,
+        "y": 220,
+        "wires": [
+            [
+                "9e6654f63b1a4e3e",
+                "d8f3f27b20372c3e"
+            ]
+        ]
+    },
+    {
+        "id": "8bdbb3a52a071e71",
+        "type": "mqtt in",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "Vibrazioni ESP32",
+        "topic": "arkeos/env/vib",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "mqtt_broker",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1380,
+        "y": 440,
+        "wires": [
+            [
+                "4065bd4c1101c343",
+                "ab214347ca6e12d6"
+            ]
+        ]
+    },
+    {
+        "id": "4065bd4c1101c343",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "Store Vib",
+        "func": "if(msg.payload == 1){\n    msg.payload = \"Alte\"\n}\nif(msg.payload == 0){\n    msg.payload = \"Basse\"\n}\nflow.set('last_vib', msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab214347ca6e12d6",
+        "type": "switch",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "Check Soglia Vib",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1610,
+        "y": 500,
+        "wires": [
+            [
+                "9ac70f7db16b81b1"
+            ]
+        ]
+    },
+    {
+        "id": "8b98cb5cb4c2ea3d",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "Invia Allarme",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1930,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ac70f7db16b81b1",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "Allarme",
+        "func": "let vib = flow.get('last_vib') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nlet nuovoAllarme = {\n    messaggio: `⚠️🌀 AL104 Vibrazioni elevate`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - ⚠️🌀 AL104 Vibrazioni elevate`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n  chatId: chatId,\n  type: \"message\",\n  content: \"*⚠️🌀 ATTENZIONE* - Vibrazioni *elevate*.\",\n  options: {\n    parse_mode: \"Markdown\"\n  }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 480,
+        "wires": [
+            [
+                "8b98cb5cb4c2ea3d",
+                "710e7f50e4d80be8"
+            ]
+        ]
+    },
+    {
+        "id": "71371913bee49dd2",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "True (Alte)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1380,
+        "y": 540,
+        "wires": [
+            [
+                "ab214347ca6e12d6",
+                "4065bd4c1101c343"
+            ]
+        ]
+    },
+    {
+        "id": "859d48d8c76a2585",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "ppm",
+        "info": "",
+        "x": 1550,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1fd630a65b05463b",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "%",
+        "info": "",
+        "x": 330,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1fbf3d5756baef1a",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "°C",
+        "info": "",
+        "x": 310,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e698895c4250eb5f",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "digitale: o alte o basse",
+        "info": "",
+        "x": 1620,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "ab7b1a80b15830f3",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Allarme",
+        "func": "let temp = flow.get('last_temp') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nlet nuovoAllarme = {\n    messaggio: `⚠️🌡️ AL101 Temperatura elevata (${temp}°C)`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - ⚠️🌡️ AL101 Temperatura elevata (${temp}°C)`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n  chatId: chatId,\n  type: \"message\",\n  content: `*⚠️🌡️ ATTENZIONE AL101* - Temperatura elevata: *${temp}°C* !`,\n  options: {\n    parse_mode: \"Markdown\"\n  }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 160,
+        "wires": [
+            [
+                "a4cc076bf25e2290",
+                "edbe504e7fcff84d"
+            ]
+        ]
+    },
+    {
+        "id": "c9d889930114aabc",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "name": "OPCUA README",
+        "info": "Per quanto riguarda la comunicazione\nvia protocollo OPCUA, non essendo in \npossesso di un PLC fisico, non posso \ninterfacciarmi direttamente con esso.\n\nDi conseguenza, tutti i processi di \nArkeos che coinvolgono OPCUA sono\ndelle simulazioni.\n\nSono però del tutto funzionanti, nel caso \nin cui si volesse collegare veramente \nun PLC; le ho infatti testate con un\nOMRON NX102-1200 e funzionano\ncorrettamente.\n\nPe esempio, i blocchi di invio della \nconferma dopo aver scritto sulle \nvariabili del PLC, in realtà andrebbero \ncollegato al primo output del client OPCUA, ovvero \novvero l'output \"success\", e non prima\ndell'invio del dato al PLC.\n",
+        "x": 810,
+        "y": 40,
+        "wires": [],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "504d625891c8bf6a",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "False (Basse)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 1390,
+        "y": 500,
+        "wires": [
+            [
+                "ab214347ca6e12d6",
+                "4065bd4c1101c343"
+            ]
+        ]
+    },
+    {
+        "id": "84c8d019022578a0",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "25°C",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "25",
+        "payloadType": "num",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "ee528d5ad7388c19",
+                "a12714661ad2a129"
+            ]
+        ]
+    },
+    {
+        "id": "3b4e07dc592c1856",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "55%",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "55",
+        "payloadType": "num",
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "7a2251f2657ec426",
+                "6041c8da2210c00d"
+            ]
+        ]
+    },
+    {
+        "id": "ee31144251f1c9df",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "134ppm",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "134",
+        "payloadType": "num",
+        "x": 1360,
+        "y": 180,
+        "wires": [
+            [
+                "d8f3f27b20372c3e",
+                "9e6654f63b1a4e3e"
+            ]
+        ]
+    },
+    {
+        "id": "ba7021b07db771c3",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "name": "README ESP32 MQTT",
+        "info": "Nonostante abbia provato Arkeos con ESP32,\ncomunicando su protocollo MQTT,\nho deciso di lasciare comunque degli \ninject per poter controllare i valori\nche venivano letti dai sensori a bordo\nmacchina in maniera semplice direttamente\nda NodeRed.\n\nTutti e 4 i parametri hanno 3 valori\nimpostabili manualmente (tranne le \nvibrazioni): il 1° è un valore normale \naccettabile dalla macchina, il 2°\nè un valore alto che triggera un'allarme,\nmentre il 3° è un valore critico che porta\nla macchina in emergenza.",
+        "x": 590,
+        "y": 40,
+        "wires": [],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "71a0514228a1815b",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Data Ora",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1440,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "39a34134fb55b376",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "EMG Temp",
+        "func": "let temp = flow.get('last_temp') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nlet nuovoAllarme = {\n    messaggio: `🚨🌡️ EMG101 Temperatura critica (${temp}°C)`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - 🚨🌡️ EMG101 Temperatura critica (${temp}°C)`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\n\nlet msg1 = {\n    payload: {\n      chatId: chatId,\n      type: \"message\",\n      content: `*🚨🌡️ EMERGENZA 101* - Temperatura critica: *${temp}°C* ! Arkeos procederà a fermarsi nei prossimi *30 secondi* se la temperaturà non si abbasserà.`,\n      options: {parse_mode: \"Markdown\"}\n    }\n};\n\nlet msg2 = {\n    payload: true\n};\n\nreturn [msg1, msg2];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 240,
+        "wires": [
+            [
+                "95e166fc5b0f62bb"
+            ],
+            [
+                "b9f3378334dcaf59",
+                "8a93d4fc0b6581e5"
+            ]
+        ]
+    },
+    {
+        "id": "95e166fc5b0f62bb",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Invia EMG",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 690,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10c5e1ce46a680c8",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "62°C",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "62",
+        "payloadType": "num",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "ee528d5ad7388c19",
+                "a12714661ad2a129"
+            ]
+        ]
+    },
+    {
+        "id": "4f47cbc01b9dec27",
+        "type": "OpcUa-Item",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "item": "ns=4;s=Emergenza",
+        "datatype": "Boolean",
+        "value": "true",
+        "name": "EMG PLC",
+        "x": 820,
+        "y": 280,
+        "wires": [
+            [
+                "1265796d162135e0"
+            ]
+        ]
+    },
+    {
+        "id": "1265796d162135e0",
+        "type": "OpcUa-Client",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "endpoint": "a0db829528203303",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "10",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "EMG PLC",
+        "x": 980,
+        "y": 240,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b9f3378334dcaf59",
+        "type": "delay",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 680,
+        "y": 280,
+        "wires": [
+            [
+                "a3d0e4a202580d48",
+                "4f47cbc01b9dec27"
+            ]
+        ]
+    },
+    {
+        "id": "a3d0e4a202580d48",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Conferma EMG Stop",
+        "func": "let chatId = flow.get('telegramChatId');\n\nflow.set('statoMacchina', 'Emergenza');\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `[${now}] 🚨 Arkeos fermato per via di un'emergenza. Controllare il log.`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"message\",\n    content: `🚨 Arkeos è stato fermato per via di un'*emergenza*. Controllare il log per più informazioni.`,\n    options: {\n        parse_mode: \"Markdown\"\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 340,
+        "wires": [
+            [
+                "c0690792696c9e73"
+            ]
+        ]
+    },
+    {
+        "id": "c0690792696c9e73",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Invia Conferma Stop EMG",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1090,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2553774d4ed48f8d",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "92%",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "92",
+        "payloadType": "num",
+        "x": 130,
+        "y": 580,
+        "wires": [
+            [
+                "7a2251f2657ec426",
+                "6041c8da2210c00d"
+            ]
+        ]
+    },
+    {
+        "id": "08f3ca049be3dc09",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "EMG Hum",
+        "func": "let hum = flow.get('last_hum') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nflow.set('statoMacchina', 'Emergenza');\n\nlet nuovoAllarme = {\n    messaggio: `🚨💧 EMG102 Umidità critica (${hum}%)`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - 🚨💧 EMG102 Umidità critica (${hum}%)`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\n\nlet msg1 = {\n    payload: {\n      chatId: chatId,\n      type: \"message\",\n      content: `*🚨💧 EMERGENZA 102* - Umidità critica: *${hum}%* ! Arkeos procederà a fermarsi nei prossimi *30 secondi* se l'umidità' non si abbasserà.`,\n      options: {parse_mode: \"Markdown\"}\n    }\n};\n\nlet msg2 = {\n    payload: true\n};\n\nreturn [msg1, msg2];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "eebda61c6380f0e1"
+            ],
+            [
+                "b2c7db9e7ff42e47",
+                "037c10eb64ecabca"
+            ]
+        ]
+    },
+    {
+        "id": "eebda61c6380f0e1",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Invia EMG",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c16f38eb12c49c9",
+        "type": "OpcUa-Item",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "item": "ns=4;s=Emergenza",
+        "datatype": "Boolean",
+        "value": "true",
+        "name": "EMG PLC",
+        "x": 840,
+        "y": 600,
+        "wires": [
+            [
+                "292617a06a409d51"
+            ]
+        ]
+    },
+    {
+        "id": "292617a06a409d51",
+        "type": "OpcUa-Client",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "endpoint": "a0db829528203303",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "10",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "EMG PLC",
+        "x": 1000,
+        "y": 560,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b2c7db9e7ff42e47",
+        "type": "delay",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 600,
+        "wires": [
+            [
+                "2c16f38eb12c49c9",
+                "0a76710ab73745d3"
+            ]
+        ]
+    },
+    {
+        "id": "0a76710ab73745d3",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Conferma EMG Stop",
+        "func": "let chatId = flow.get('telegramChatId');\n\nflow.set('statoMacchina', 'Emergenza');\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `[${now}] 🚨 Arkeos fermato per via di un'emergenza. Controllare il log.`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"message\",\n    content: `🚨 Arkeos è stato fermato per via di un'*emergenza*. Controllare il log per più informazioni.`,\n    options: {\n        parse_mode: \"Markdown\"\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 660,
+        "wires": [
+            [
+                "66c7692912017b81"
+            ]
+        ]
+    },
+    {
+        "id": "66c7692912017b81",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Invia Conferma Stop EMG",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1110,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dbba4486ce25efd1",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "324ppm",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "324",
+        "payloadType": "num",
+        "x": 1360,
+        "y": 260,
+        "wires": [
+            [
+                "d8f3f27b20372c3e",
+                "9e6654f63b1a4e3e"
+            ]
+        ]
+    },
+    {
+        "id": "efce76be61213c60",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "EMG Gas",
+        "func": "let gas = flow.get('last_gas') || 'N/D';\nlet chatId = flow.get('telegramChatId');\n\nlet allarmi = flow.get('allarmi') || [];\n\nlet nuovoAllarme = {\n    messaggio: `🚨💨 EMG103 Quantità di gas critica (${gas}ppm)`,\n    timestamp: new Date().toLocaleString()\n};\n\nallarmi.push(nuovoAllarme); // max 20 allarmi e dopo shiftano\nif (allarmi.length > 20) allarmi.shift();\n\nflow.set('allarmi', allarmi);\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - 🚨💨 EMG103 Quantità gas critica (${gas}ppm)`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\n\nlet msg1 = {\n    payload: {\n      chatId: chatId,\n      type: \"message\",\n      content: `*🚨💨 EMERGENZA 103* - Quantità di gas critica: *${gas}ppm* ! Arkeos procederà a fermarsi nei prossimi *30 secondi* se la quantità di gas non si abbasserà.`,\n      options: {parse_mode: \"Markdown\"}\n    }\n};\n\nlet msg2 = {\n    payload: true\n};\n\nreturn [msg1, msg2];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1740,
+        "y": 240,
+        "wires": [
+            [
+                "7c7409e6e4a25c6c"
+            ],
+            [
+                "0162fd4128d1c72e",
+                "674412a01fc5bc2a"
+            ]
+        ]
+    },
+    {
+        "id": "7c7409e6e4a25c6c",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Invia EMG",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1930,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b9479aba9f6eec5",
+        "type": "OpcUa-Item",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "item": "ns=4;s=Emergenza",
+        "datatype": "Boolean",
+        "value": "true",
+        "name": "EMG PLC",
+        "x": 2060,
+        "y": 280,
+        "wires": [
+            [
+                "f0c7c148de625049"
+            ]
+        ]
+    },
+    {
+        "id": "f0c7c148de625049",
+        "type": "OpcUa-Client",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "endpoint": "a0db829528203303",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "10",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "EMG PLC",
+        "x": 2220,
+        "y": 240,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0162fd4128d1c72e",
+        "type": "delay",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1920,
+        "y": 280,
+        "wires": [
+            [
+                "0b9479aba9f6eec5",
+                "386c075fc3c7b9df"
+            ]
+        ]
+    },
+    {
+        "id": "386c075fc3c7b9df",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Conferma EMG Stop",
+        "func": "let chatId = flow.get('telegramChatId');\n\nflow.set('statoMacchina', 'Emergenza');\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `[${now}] 🚨 Arkeos fermato per via di un'emergenza. Controllare il log.`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"message\",\n    content: `🚨 Arkeos è stato fermato per via di un'*emergenza*. Controllare il log per più informazioni.`,\n    options: {\n        parse_mode: \"Markdown\"\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2100,
+        "y": 340,
+        "wires": [
+            [
+                "6bc20d8c759770b0"
+            ]
+        ]
+    },
+    {
+        "id": "6bc20d8c759770b0",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Invia Conferma Stop EMG",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 2330,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9cf6564a50436ee",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "name": "Arkeos - by Miori Alessandro - alessandro.miori@mat.tn.it",
+        "info": "",
+        "x": 250,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "91f2a12b0d5ced38",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "name": "RASPBERRY README",
+        "info": "Anche per quanto riguarda Raspberry, il\nprogetto lo tratterà come una simulazione,\nnonostante io abbia utilizzato un Pi5 \nper hostare Node-RED e la comunicazione\ncon il Bot.\n\nQuindi anche gli status delle connessioni \ncon i dispositivi risulteranno tutte\nassenti poichè non ci sono più \ncollegamenti fisici.",
+        "x": 1020,
+        "y": 40,
+        "wires": [],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "eee6904860b7fba4",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Data Ora",
+        "func": "msg.payload = `${new Date().toLocaleString()}`\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 960,
+        "wires": [
+            [
+                "71a0514228a1815b"
+            ]
+        ]
+    },
+    {
+        "id": "40e3820525f38953",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 960,
+        "wires": [
+            [
+                "eee6904860b7fba4"
+            ]
+        ]
+    },
+    {
+        "id": "2efdd4366e369cc2",
+        "type": "OpcUa-Client",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "endpoint": "a0db829528203303",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "10",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "Start ciclo PLC",
+        "x": 860,
+        "y": 1060,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a25565ceedfde589",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Start ciclo PLC",
+        "func": "msg.payload = true;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1060,
+        "wires": [
+            [
+                "d4d28d457baba0d4"
+            ]
+        ]
+    },
+    {
+        "id": "df5fc40e4e5dc030",
+        "type": "telegram receiver",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Ricevi /stato",
+        "bot": "73a82d198a1be3d8",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 130,
+        "y": 840,
+        "wires": [
+            [
+                "7ad45629fe82408f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7ad45629fe82408f",
+        "type": "switch",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Check comando",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/stato",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/allarmi",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ambiente",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/log",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/startcycle",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/stop",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 180,
+        "y": 980,
+        "wires": [
+            [
+                "a39ef19ec921c57c",
+                "4e71b494c38bde29"
+            ],
+            [
+                "2d0ee4fd55baaaf8",
+                "2830f4cc043b1f8c"
+            ],
+            [
+                "87d9b382bf6864a4",
+                "715c3ee095525838"
+            ],
+            [
+                "85a50b9d923b360a",
+                "86f45386315f1b9f"
+            ],
+            [
+                "a25565ceedfde589",
+                "44ea33946473afb1"
+            ],
+            [
+                "742c6268a5963b51",
+                "4e00d0ff9da953bf"
+            ]
+        ]
+    },
+    {
+        "id": "a39ef19ec921c57c",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Risposta /stato",
+        "func": "let statoMacchina = flow.get('statoMacchina') || \"N/D\";\n\nlet plc = flow.get('connessionePLC');\nlet esp = flow.get('connessioneESP');\nlet pi = flow.get('connessionePi');\n\nlet icon = '⚪';  // default\n\nif (statoMacchina.toLowerCase().includes(\"attivo\")) {\n    icon = '🟢';\n} else if (statoMacchina.toLowerCase().includes(\"emergenza\") || statoMacchina.toLowerCase().includes(\"allarme\")) {\n    icon = '🔴';\n} else if (statoMacchina.toLowerCase().includes(\"fermo\")) {\n    icon = '🟡';\n}\n\nlet plcStatus = plc ? \"🟢 Online\" : \"🔴 Offline\";\nlet espStatus = esp ? \"🟢 Online\" : \"🔴 Offline\";\nlet piStatus = pi ? \"🟢 Online\" : \"🔴 Offline\";\n\nlet cmds = flow.get('cmds') || [];\nlet chatId = flow.get('telegramChatId');\n\nlet now = new Date().toLocaleString();\nlet entry = `${now} - /stato - ${chatId}`; \n\ncmds.push(entry);\nflow.set('cmds', cmds);\n\nmsg.payload = {\n    chatId: flow.get('telegramChatId'),\n    type: \"message\",\n    content:\n`${icon} *Stato attuale del sistema Arkeos*\n\n🛠️ *Macchina:* ${statoMacchina}\n\n📡 *Stato connessioni:*  \n- PLC: ${plcStatus}  \n- ESP32: ${espStatus}  \n- Raspberry Pi: ${piStatus}\n\n⏱️ Ultimo aggiornamento: ${new Date().toLocaleString()}`,\n    options: {\n        parse_mode: \"Markdown\"\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 760,
+        "wires": [
+            [
+                "c9255faae7cd518d"
+            ]
+        ]
+    },
+    {
+        "id": "c9255faae7cd518d",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia Stato",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acffd0cf05040f20",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia Allarmi",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d0ee4fd55baaaf8",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Risposta /allarmi",
+        "func": "let allarmi = flow.get('allarmi') || [];\n\nif (allarmi.length === 0) {\n    msg.payload = {\n        chatId: flow.get('telegramChatId'),\n        type: \"message\",\n        content: \"✅ Nessun allarme attivo al momento.\",\n        options: { parse_mode: \"Markdown\" }\n    };\n    return msg;\n}\n\nlet cmds = flow.get('cmds') || [];\nlet chatId = flow.get('telegramChatId');\n\nlet now = new Date().toLocaleString();\nlet entry = `${now} - /allarmi - ${chatId}`; \n\ncmds.push(entry);\nflow.set('cmds', cmds);\n\nlet elenco = allarmi.map((a, i) => `⚠️ *${i+1}:* ${a.messaggio} (${a.timestamp || 'data sconosciuta'})`).join(\"\\n\");\n\nmsg.payload = {\n    chatId: flow.get('telegramChatId') || '449328766',\n    type: \"message\",\n    content:\n`🚨 *Storico allarmi attivi nel sistema Arkeos:*\\n\\n${elenco}`,\n    options: { parse_mode: \"Markdown\" }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 820,
+        "wires": [
+            [
+                "acffd0cf05040f20"
+            ]
+        ]
+    },
+    {
+        "id": "8518720dcdc5ae42",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia Ambiente",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 660,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87d9b382bf6864a4",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Risposta /ambiente",
+        "func": "let chatId = flow.get('telegramChatId');\n\nlet temp = flow.get('last_temp') || 'N/D';\nlet hum = flow.get('last_hum') || 'N/D';\nlet gas = flow.get('last_gas') || 'N/D';\nlet vib = flow.get('last_vib') || 'N/D';\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"message\",\n    content: \n`📊 *Valori ambientali attuali*:\n\n🌡️ *Temperatura:* ${temp} °C  \n💧 *Umidità:* ${hum} %  \n💨 *Gas:* ${gas} ppm  \n🌀 *Vibrazioni:* ${vib}`,\n\n    options: { parse_mode: \"Markdown\" }\n};\n\nlet cmds = flow.get('cmds') || [];\n\nlet now = new Date().toLocaleString();\nlet entry = `${now} - /ambiente - ${chatId}`; \n\ncmds.push(entry);\nflow.set('cmds', cmds);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 880,
+        "wires": [
+            [
+                "8518720dcdc5ae42"
+            ]
+        ]
+    },
+    {
+        "id": "efa229e090473144",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia Log Breve",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85a50b9d923b360a",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Risposta /log",
+        "func": "let chatId = flow.get('telegramChatId');\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\n\nif (logs.length === 0) {\n    return [{\n        payload: {\n            chatId: chatId,\n            type: \"message\",\n            content: \"🗂️ Nessun evento registrato al momento.\",\n            options: { parse_mode: \"Markdown\" }\n        }\n    }, null];\n}\n\nlet cmds = flow.get('cmds') || [];\n\nlet now = new Date().toLocaleString();\nlet entry = `${now} - /log - ${chatId}`; \n\ncmds.push(entry);\nflow.set('cmds', cmds);\n\n// Primo messaggio - ultimi log\nlet recenti = logs.slice(-10).map(e => `• ${e}`).join('\\n');\nlet msg1 = {\n    payload: {\n        chatId: chatId,\n        type: \"message\",\n        content: `🗂️ *Ultimi eventi registrati:*\\n\\n${recenti}`,\n        options: { parse_mode: \"Markdown\" }\n    }\n};\n\n// Secondo messaggio - scrittura su file\nlet msg2 = {\n    payload: logsFull.join('\\n'),\n    filename: \"/tmp/arkeos_log.txt\"\n};\n\nreturn [msg1, msg2];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 940,
+        "wires": [
+            [
+                "efa229e090473144"
+            ],
+            [
+                "29c02324fc9e036c"
+            ]
+        ]
+    },
+    {
+        "id": "5cb1631b423e5680",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia .txt",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 840,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29c02324fc9e036c",
+        "type": "file",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 460,
+        "y": 1000,
+        "wires": [
+            [
+                "ed9d653d33d77d6e"
+            ]
+        ]
+    },
+    {
+        "id": "ed9d653d33d77d6e",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Compatta file txt e invia",
+        "func": "let chatId = flow.get('telegramChatId');\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"document\",\n    content: \"/tmp/arkeos_log.txt\",\n    filename: \"arkeos_log.txt\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1000,
+        "wires": [
+            [
+                "5cb1631b423e5680"
+            ]
+        ]
+    },
+    {
+        "id": "d4d28d457baba0d4",
+        "type": "OpcUa-Item",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "item": "ns=4;s=StartCycle",
+        "datatype": "Boolean",
+        "value": "true",
+        "name": "Start ciclo PLC",
+        "x": 640,
+        "y": 1060,
+        "wires": [
+            [
+                "2efdd4366e369cc2",
+                "bf35d27084c3b44f"
+            ]
+        ]
+    },
+    {
+        "id": "bf35d27084c3b44f",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Conferma Start",
+        "func": "let chatId = flow.get('telegramChatId');\n\nflow.set('statoMacchina', 'Attivo');\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - ▶️ Ciclo produttivo avviato.`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nlet cmds = flow.get('cmds') || [];\n\nlet entrycmd = `${now} - /startcycle - ${chatId}`; \n\ncmds.push(entrycmd);\nflow.set('cmds', cmds);\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"message\",\n    content: `▶️ *Ciclo produttivo avviato* con successo.`,\n    options: {\n        parse_mode: \"Markdown\"\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1120,
+        "wires": [
+            [
+                "258e649fadd5d2d5",
+                "caefb5763f114814"
+            ]
+        ]
+    },
+    {
+        "id": "258e649fadd5d2d5",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia Conferma Start",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf405cc4753ea30c",
+        "type": "OpcUa-Client",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "endpoint": "a0db829528203303",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "10",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "setstatusandtime": false,
+        "keepsessionalive": false,
+        "name": "Stop ciclo PLC",
+        "x": 860,
+        "y": 1180,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "742c6268a5963b51",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Stop ciclo PLC",
+        "func": "msg.payload = false;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1180,
+        "wires": [
+            [
+                "a093a51f6da6b681"
+            ]
+        ]
+    },
+    {
+        "id": "a093a51f6da6b681",
+        "type": "OpcUa-Item",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "item": "ns=2;s=StopCycle",
+        "datatype": "Boolean",
+        "value": "false",
+        "name": "Stop ciclo PLC",
+        "x": 640,
+        "y": 1180,
+        "wires": [
+            [
+                "bf405cc4753ea30c",
+                "52d0ebee01392fda"
+            ]
+        ]
+    },
+    {
+        "id": "52d0ebee01392fda",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Conferma Stop",
+        "func": "let chatId = flow.get('telegramChatId');\n\nflow.set('statoMacchina', 'Fermo');\n\nlet logs = flow.get('logs') || [];\nlet logsFull = flow.get('logs_full') || [];\nlet now = new Date().toLocaleString();\nlet entry = `${now} - ⏹️ Ciclo produttivo fermato.`; \n\nlogs.push(entry);\nif (logs.length > 20) logs.shift();\nlogsFull.push(entry);\n\nflow.set('logs', logs);\nflow.set('logs_full', logsFull);\n\nlet cmds = flow.get('cmds') || [];\n\nlet entrycmd = `${now} - /stop - ${chatId}`; \n\ncmds.push(entrycmd);\nflow.set('cmds', cmds);\n\nmsg.payload = {\n    chatId: chatId,\n    type: \"message\",\n    content: `⏹️ *Ciclo produttivo fermato* con successo.`,\n    options: {\n        parse_mode: \"Markdown\"\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1240,
+        "wires": [
+            [
+                "0eab17efb791b2f8",
+                "2f334a760ed8a539"
+            ]
+        ]
+    },
+    {
+        "id": "0eab17efb791b2f8",
+        "type": "telegram sender",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "Invia Conferma Stop",
+        "bot": "73a82d198a1be3d8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abb344e11a98f3e5",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "group": "df0b04f7244397bb",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Umidità",
+        "label": "",
+        "format": "Umidità attuale: {{msg.payload}}%",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1440,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "acdea64c0eae1269",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "group": "69e77f8ac5b16d90",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Gas",
+        "label": "",
+        "format": "Gas nell'aria: {{msg.payload}}ppm",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1410,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "d64430cf19c016a0",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Temperatura",
+        "func": "msg.payload = flow.get('last_temp') || 'N/D';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 1900,
+        "wires": [
+            [
+                "72cba4412484cb6b",
+                "3304310aa8fa0e63",
+                "d0a2204b0ed16fdf"
+            ]
+        ]
+    },
+    {
+        "id": "6bc55bc69f522b0e",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Umidità",
+        "func": "msg.payload = flow.get('last_hum') || 'N/D';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 2040,
+        "wires": [
+            [
+                "abb344e11a98f3e5",
+                "d0ffc85cb35e9051",
+                "a251dd011bccb92d"
+            ]
+        ]
+    },
+    {
+        "id": "b841f64a4881edb7",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1900,
+        "wires": [
+            [
+                "d64430cf19c016a0"
+            ]
+        ]
+    },
+    {
+        "id": "da27925bc37f6458",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 2040,
+        "wires": [
+            [
+                "6bc55bc69f522b0e"
+            ]
+        ]
+    },
+    {
+        "id": "f34c54e4b8c34af0",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Gas",
+        "func": "msg.payload = flow.get('last_gas') || 'N/D';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 2180,
+        "wires": [
+            [
+                "acdea64c0eae1269",
+                "60cbe19fdb3aa0bb",
+                "30c8354fa7de8007"
+            ]
+        ]
+    },
+    {
+        "id": "41edce603c32d4a7",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 2180,
+        "wires": [
+            [
+                "f34c54e4b8c34af0"
+            ]
+        ]
+    },
+    {
+        "id": "72cba4412484cb6b",
+        "type": "ui_chart",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Grafico Temp",
+        "group": "52ba154aabf085a4",
+        "order": 3,
+        "width": 9,
+        "height": 3,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Nessuna temperatura disponibile al momento.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "80",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#000000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62424",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1470,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0ffc85cb35e9051",
+        "type": "ui_chart",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Grafico Umidità",
+        "group": "df0b04f7244397bb",
+        "order": 3,
+        "width": 9,
+        "height": 3,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Nessuna umidità disponibile al momento.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "95",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#000000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62424",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1460,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60cbe19fdb3aa0bb",
+        "type": "ui_chart",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Grafico Gas",
+        "group": "69e77f8ac5b16d90",
+        "order": 3,
+        "width": 9,
+        "height": 3,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Nessun dato sulla presenza di gas disponibile al momento.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "310",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#000000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62424",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1430,
+        "y": 2220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc734888071a831c",
+        "type": "random",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "",
+        "low": 1,
+        "high": "39",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 300,
+        "wires": [
+            [
+                "ee528d5ad7388c19",
+                "a12714661ad2a129"
+            ]
+        ]
+    },
+    {
+        "id": "8e99b55f7201db4b",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Valori Normali",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "bc734888071a831c"
+            ]
+        ]
+    },
+    {
+        "id": "9362bf9c3523e46e",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "Valori Normali",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 620,
+        "wires": [
+            [
+                "ab819320321dfab3"
+            ]
+        ]
+    },
+    {
+        "id": "ab819320321dfab3",
+        "type": "random",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "",
+        "low": 1,
+        "high": "69",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 620,
+        "wires": [
+            [
+                "7a2251f2657ec426",
+                "6041c8da2210c00d"
+            ]
+        ]
+    },
+    {
+        "id": "fb077ee6aa733f93",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "Valori Normali",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1380,
+        "y": 300,
+        "wires": [
+            [
+                "5478266be1931f64"
+            ]
+        ]
+    },
+    {
+        "id": "5478266be1931f64",
+        "type": "random",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "",
+        "low": 1,
+        "high": "199",
+        "inte": "true",
+        "property": "payload",
+        "x": 1540,
+        "y": 300,
+        "wires": [
+            [
+                "d8f3f27b20372c3e",
+                "9e6654f63b1a4e3e"
+            ]
+        ]
+    },
+    {
+        "id": "7216fa7514f527ec",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "Valori Normali",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1400,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2e57d68432cee1a",
+        "type": "random",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "",
+        "low": "0",
+        "high": "1",
+        "inte": "true",
+        "property": "payload",
+        "x": 1560,
+        "y": 580,
+        "wires": [
+            [
+                "4065bd4c1101c343",
+                "ab214347ca6e12d6"
+            ]
+        ]
+    },
+    {
+        "id": "792336d40cb84f9f",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "group": "f8c05a80b15f75c2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Ultimo Allarme Attivo",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 2260,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "32d5eb07f704a334",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "Ultimo allarme",
+        "func": "let allarmi = flow.get('allarmi') || [];\n\nif (allarmi.length === 0) {\n    msg.payload = \"Nessun allarme attivo.\";\n} else {\n    let ultimo = allarmi[allarmi.length - 1];\n    msg.payload = `Ultimo allarme: ${ultimo.messaggio} (${ultimo.timestamp || 'data sconosciuta'})`;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2060,
+        "y": 800,
+        "wires": [
+            [
+                "792336d40cb84f9f"
+            ]
+        ]
+    },
+    {
+        "id": "05b8f5562d3806f6",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "name": "Benvenuto",
+        "label": "",
+        "format": "Benvenuto in Arkeos, questa è la tua dashboard.",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "25",
+        "color": "#000000",
+        "x": 1610,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "5462dc019964e455",
+        "type": "ui_template",
+        "z": "c97341d47de293e5",
+        "g": "7d3196b9a1c7221c",
+        "group": "",
+        "name": "Logo Arkeos",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n(function() {\n    function addLogo() {\n        const toolbar = document.querySelector('.nr-dashboard-theme md-toolbar .md-toolbar-tools');\n        if (!toolbar || toolbar.querySelector('.custom-logo')) return;\n\n        const logo = document.createElement('img');\n        logo.src = \"https://i.postimg.cc/xdwwdg5V/Risorsa-8.png\";\n        logo.classList.add('custom-logo');\n\n        toolbar.insertBefore(logo, toolbar.firstChild);\n    }\n\n    const observer = new MutationObserver(() => {\n        const toolbar = document.querySelector('.nr-dashboard-theme md-toolbar .md-toolbar-tools');\n        if (toolbar) {\n            addLogo();\n            observer.disconnect();\n        }\n    });\n\n    observer.observe(document.body, { childList: true, subtree: true });\n})();\n</script>\n\n<style>\n/* Nascondi testo titolo toolbar */\n.nr-dashboard-theme md-toolbar .md-toolbar-tools {\n    color: transparent !important;\n    user-select: none;\n    pointer-events: none;\n    display: flex;\n    align-items: center;\n}\n\n/* Mantieni visibile e interattivo solo il logo */\n.nr-dashboard-theme md-toolbar .md-toolbar-tools .custom-logo {\n    color: initial !important;\n    pointer-events: auto;\n    user-select: auto;\n\n    height: 40px;\n    margin-left: 15px;  /* Sposta il logo più a destra */\n    margin-top: 30px;\n    border-radius: 4px;\n    object-fit: contain;\n    transition: opacity 0.3s ease, transform 0.3s ease;\n    cursor: default;\n}\n\n.nr-dashboard-theme md-toolbar .md-toolbar-tools .custom-logo:hover {\n    opacity: 0.85;\n    transform: scale(1.05);\n}\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 1650,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd97cf67c5dc619c",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "order": 2,
+        "group": "52ba154aabf085a4",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led temp",
+        "x": 1620,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "3304310aa8fa0e63",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Temperatura",
+        "func": "let t = msg.payload\nif(t < 40){\n    msg.payload = 1\n}\nif(t >= 40 && t < 60){\n    msg.payload = 2\n}\nif(t >= 60){\n    msg.payload = 2\n} \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 1860,
+        "wires": [
+            [
+                "dd97cf67c5dc619c"
+            ]
+        ]
+    },
+    {
+        "id": "7463cab237d9578c",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "order": 2,
+        "group": "df0b04f7244397bb",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led hum",
+        "x": 1600,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "a251dd011bccb92d",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Umidità",
+        "func": "let h = msg.payload\nif(h < 70){\n    msg.payload = 1\n}\nif(h >= 70 && h < 85){\n    msg.payload = 2\n}\nif(h >= 85){\n    msg.payload = 2\n} \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 2000,
+        "wires": [
+            [
+                "7463cab237d9578c"
+            ]
+        ]
+    },
+    {
+        "id": "27476de772940440",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "order": 2,
+        "group": "69e77f8ac5b16d90",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "3",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led gas",
+        "x": 1580,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "30c8354fa7de8007",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "name": "Gas",
+        "func": "let g = msg.payload\nif(g < 200){\n    msg.payload = 1\n}\nif(g >= 200 && g < 300){\n    msg.payload = 2\n}\nif(g >= 300){\n    msg.payload = 2\n} \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 2140,
+        "wires": [
+            [
+                "27476de772940440"
+            ]
+        ]
+    },
+    {
+        "id": "18861318065bec07",
+        "type": "comment",
+        "z": "c97341d47de293e5",
+        "g": "7d3196b9a1c7221c",
+        "name": "dummySpacers info",
+        "info": "Ho dovuto creare dei dummySpacers con\ndelle caselle di testo vuote perchè se\navessi usato gli spacers normali ogni\nvolta che modificavo il layout sarebbero\nstati rimossi poichè in fondo al gruppo.",
+        "x": 1150,
+        "y": 800,
+        "wires": [],
+        "icon": "font-awesome/fa-info"
+    },
+    {
+        "id": "08580c08401f7af8",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1890,
+        "y": 800,
+        "wires": [
+            [
+                "32d5eb07f704a334"
+            ]
+        ]
+    },
+    {
+        "id": "03f84997ccb62f33",
+        "type": "ui_table",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "group": "f8c05a80b15f75c2",
+        "name": "Tabella allarmi",
+        "order": 1,
+        "width": 9,
+        "height": 6,
+        "columns": [
+            {
+                "field": "ID",
+                "title": "ID",
+                "width": "55",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Descrizione",
+                "title": "Descrizione",
+                "width": "270",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Timestamp",
+                "title": "Timestamp",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 2280,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "24863120409b0c9d",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "Popola tabella",
+        "func": "let allarmi = flow.get('allarmi') || [];\n\nmsg.payload = allarmi.map((a, i) => ({\n    ID: `${i + 1}`,\n    Descrizione: a.messaggio || \"Messaggio sconosciuto\",\n    Timestamp: a.timestamp || \"Data sconosciuta\"\n})).reverse(); // per far popolare la tabella dall alto verso il basso\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 920,
+        "wires": [
+            [
+                "03f84997ccb62f33"
+            ]
+        ]
+    },
+    {
+        "id": "edbe504e7fcff84d",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "LOG + ALRM",
+        "mode": "link",
+        "links": [
+            "5bc4f190b2cd010b",
+            "740e196b4d9d3d1e"
+        ],
+        "x": 615,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5bc4f190b2cd010b",
+        "type": "link in",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "ALRM IN",
+        "links": [
+            "7c2a1b7f891408c5",
+            "edbe504e7fcff84d",
+            "710e7f50e4d80be8",
+            "d3cf4fde8646acf9"
+        ],
+        "x": 1905,
+        "y": 920,
+        "wires": [
+            [
+                "24863120409b0c9d"
+            ]
+        ]
+    },
+    {
+        "id": "7c2a1b7f891408c5",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "LOG + ALRM",
+        "mode": "link",
+        "links": [
+            "5bc4f190b2cd010b",
+            "740e196b4d9d3d1e"
+        ],
+        "x": 635,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d3cf4fde8646acf9",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "LOG + ALRM",
+        "mode": "link",
+        "links": [
+            "5bc4f190b2cd010b",
+            "740e196b4d9d3d1e"
+        ],
+        "x": 1855,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "710e7f50e4d80be8",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "7a92e31d6a71d8a6",
+        "name": "LOG + ALRM",
+        "mode": "link",
+        "links": [
+            "5bc4f190b2cd010b",
+            "740e196b4d9d3d1e"
+        ],
+        "x": 1875,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d8061327616ef78c",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "Svuota tabella",
+        "func": "flow.set('allarmi', []);\nmsg.payload = [];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2020,
+        "y": 980,
+        "wires": [
+            [
+                "60a4c837b35e7b6c"
+            ]
+        ]
+    },
+    {
+        "id": "6d3135e2aeae71e8",
+        "type": "ui_button",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "",
+        "group": "f8c05a80b15f75c2",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "SVUOTA",
+        "tooltip": "Svuota la tabella e lo storico degli allarmi.",
+        "color": "black",
+        "bgcolor": "",
+        "className": "",
+        "icon": "delete_forever",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1860,
+        "y": 980,
+        "wires": [
+            [
+                "d8061327616ef78c"
+            ]
+        ]
+    },
+    {
+        "id": "60a4c837b35e7b6c",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "Righe vuote",
+        "func": "let placeholder = [];\n\nfor (let i = 0; i < 20; i++) {\n    placeholder.push({\n        ID: \" \",\n        Descrizione: \" \",\n        Timestamp: \" \"\n    });\n}\n\nmsg.payload = placeholder;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2190,
+        "y": 980,
+        "wires": [
+            [
+                "03f84997ccb62f33"
+            ]
+        ]
+    },
+    {
+        "id": "a0d07343a816107f",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "File csv allarmi",
+        "func": "let allarmi = flow.get(\"allarmi\") || [];\nlet save_path = flow.get('save_path_allarmi');\n\n// se vuoto\nif (allarmi.length === 0) {\n    msg.payload = \"Nessun allarme registrato.\";\n    msg.filename = save_path+\"/arkeos_allarmi.csv\";\n    return msg;\n}\n\n// array di oggetti con proprietà fisse\nlet keys = Object.keys(allarmi[0]);\nlet csv = keys.join(\",\") + \"\\n\";\n\nfor (let a of allarmi) {\n    let row = keys.map(k => `\"${a[k]}\"`).join(\",\");\n    csv += row + \"\\n\";\n}\n\nmsg.payload = csv;\nmsg.filename = save_path+\"/arkeos_allarmi.csv\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2020,
+        "y": 1040,
+        "wires": [
+            [
+                "4d6f6d2a02faa4e0"
+            ]
+        ]
+    },
+    {
+        "id": "4d6f6d2a02faa4e0",
+        "type": "file",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 2180,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94b95bf9da508957",
+        "type": "ui_button",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "",
+        "group": "f8c05a80b15f75c2",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "SCARICA",
+        "tooltip": "Scarica lo storico degli ultimi 20 allarmi.",
+        "color": "black",
+        "bgcolor": "",
+        "className": "",
+        "icon": "get_app",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1860,
+        "y": 1040,
+        "wires": [
+            [
+                "a0d07343a816107f"
+            ]
+        ]
+    },
+    {
+        "id": "0f57b0359a39790e",
+        "type": "ui_text_input",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "",
+        "label": "Percorso salvataggio (Es. C:/Users/Ale/Desktop)",
+        "tooltip": "",
+        "group": "f8c05a80b15f75c2",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "100",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1980,
+        "y": 1100,
+        "wires": [
+            [
+                "98c00c6abef40446"
+            ]
+        ]
+    },
+    {
+        "id": "98c00c6abef40446",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "Set percorso ",
+        "func": "flow.set('save_path_allarmi', msg.payload)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2270,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2aa67375a3e94667",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1890,
+        "y": 860,
+        "wires": [
+            [
+                "c82270bfda0f9d84"
+            ]
+        ]
+    },
+    {
+        "id": "c82270bfda0f9d84",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "0ed2eb39ccdb3987",
+        "name": "Righe vuote on start",
+        "func": "let placeholder = [];\n\nfor (let i = 0; i < 20; i++) {\n    placeholder.push({\n        ID: \" \",\n        Descrizione: \" \",\n        Timestamp: \" \"\n    });\n}\n\nmsg.payload = placeholder;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 860,
+        "wires": [
+            [
+                "03f84997ccb62f33"
+            ]
+        ]
+    },
+    {
+        "id": "5cdb18a04286ca52",
+        "type": "ui_table",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "group": "ee2ffdfb60ccc940",
+        "name": "Tabella log",
+        "order": 1,
+        "width": 9,
+        "height": 7,
+        "columns": [
+            {
+                "field": "Evento",
+                "title": "Evento",
+                "width": "325",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Timestamp",
+                "title": "Timestamp",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 2270,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "0fd42c4119bae984",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "Popola tabella",
+        "func": "let logsFull = flow.get('logs_full') || [];\n\nlet tableData = logsFull.map(riga => {\n    let parts = riga.split(' - ');\n    return {\n        Timestamp: parts[0] || \"\",\n        Evento: parts[1] || \"\"\n    };\n}).reverse(); // per far popolare la tabella dall alto verso il basso\n\nmsg.payload = tableData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 1260,
+        "wires": [
+            [
+                "5cdb18a04286ca52"
+            ]
+        ]
+    },
+    {
+        "id": "740e196b4d9d3d1e",
+        "type": "link in",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "LOG IN",
+        "links": [
+            "7c2a1b7f891408c5",
+            "edbe504e7fcff84d",
+            "2f334a760ed8a539",
+            "037c10eb64ecabca",
+            "674412a01fc5bc2a",
+            "710e7f50e4d80be8",
+            "caefb5763f114814",
+            "d3cf4fde8646acf9",
+            "8a93d4fc0b6581e5"
+        ],
+        "x": 1905,
+        "y": 1260,
+        "wires": [
+            [
+                "0fd42c4119bae984"
+            ]
+        ]
+    },
+    {
+        "id": "8f16d94635847729",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "Svuota tabella",
+        "func": "flow.set('logs_full', []);\nflow.set('logs', []);\nmsg.payload = [];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2020,
+        "y": 1320,
+        "wires": [
+            [
+                "65a089fc6eb8b038"
+            ]
+        ]
+    },
+    {
+        "id": "f9708dbe8fc91e9f",
+        "type": "ui_button",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "",
+        "group": "ee2ffdfb60ccc940",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "SVUOTA",
+        "tooltip": "Svuota la tabella e lo storico dei log.",
+        "color": "black",
+        "bgcolor": "",
+        "className": "",
+        "icon": "delete_forever",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1860,
+        "y": 1320,
+        "wires": [
+            [
+                "8f16d94635847729"
+            ]
+        ]
+    },
+    {
+        "id": "65a089fc6eb8b038",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "Righe vuote",
+        "func": "let placeholder = [];\n\nfor (let i = 0; i < 20; i++) {\n    placeholder.push({\n        Timestamp: \" \",\n        Evento: \" \"\n    });\n}\n\nmsg.payload = placeholder;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2190,
+        "y": 1320,
+        "wires": [
+            [
+                "5cdb18a04286ca52"
+            ]
+        ]
+    },
+    {
+        "id": "efe061f746dbe530",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "File csv logs",
+        "func": "let logs = flow.get(\"logs_full\") || [];\nlet save_path = flow.get(\"save_path_logs\");\n\n// se vuoto\nif (logs.length === 0) {\n    msg.payload = \"Nessun evento registrato.\";\n    msg.filename = save_path + \"/arkeos_log.csv\";\n    return msg;\n}\n\nlet csv = \"timestamp,evento\\n\";\n\nfor (let riga of logs) {\n    let parts = riga.split(\" - \");\n    let timestamp = parts[0] || \"\";\n    let evento = parts.slice(1).join(\" - \") || \"\"; // non dovrebbero essercene, ma in caso \n                                                   // ci siano più \" - \" nel testo ...\n    csv += `\"${timestamp}\",\"${evento}\"\\n`;\n}\n\nmsg.payload = csv;\nmsg.filename = save_path + \"/arkeos_log.csv\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2010,
+        "y": 1380,
+        "wires": [
+            [
+                "ec04bad9c00f7308"
+            ]
+        ]
+    },
+    {
+        "id": "ec04bad9c00f7308",
+        "type": "file",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 2160,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b48ae355fbb0c1c2",
+        "type": "ui_button",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "",
+        "group": "ee2ffdfb60ccc940",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "SCARICA",
+        "tooltip": "Scarica il log completo.",
+        "color": "black",
+        "bgcolor": "",
+        "className": "",
+        "icon": "get_app",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1860,
+        "y": 1380,
+        "wires": [
+            [
+                "efe061f746dbe530"
+            ]
+        ]
+    },
+    {
+        "id": "838b8ebd82f9632a",
+        "type": "ui_text_input",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "",
+        "label": "Percorso salvataggio (Es. C:/Users/Ale/Desktop)",
+        "tooltip": "",
+        "group": "ee2ffdfb60ccc940",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "100",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1980,
+        "y": 1440,
+        "wires": [
+            [
+                "4921a29bd2d0ec59"
+            ]
+        ]
+    },
+    {
+        "id": "4921a29bd2d0ec59",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "Set percorso ",
+        "func": "flow.set('save_path_logs', msg.payload)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2270,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2e5ec1a7abb692c",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1890,
+        "y": 1200,
+        "wires": [
+            [
+                "77b5424ceb241f49"
+            ]
+        ]
+    },
+    {
+        "id": "77b5424ceb241f49",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "fe3ae5073844997a",
+        "name": "Righe vuote on start",
+        "func": "let placeholder = [];\n\nfor (let i = 0; i < 20; i++) {\n    placeholder.push({\n        Timestamp: \" \",\n        Evento: \" \"\n    });\n}\n\nmsg.payload = placeholder;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 1200,
+        "wires": [
+            [
+                "5cdb18a04286ca52"
+            ]
+        ]
+    },
+    {
+        "id": "8a93d4fc0b6581e5",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "LOG",
+        "mode": "link",
+        "links": [
+            "740e196b4d9d3d1e"
+        ],
+        "x": 635,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "037c10eb64ecabca",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "34d751827bbde5a3",
+        "name": "LOG",
+        "mode": "link",
+        "links": [
+            "740e196b4d9d3d1e"
+        ],
+        "x": 655,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "674412a01fc5bc2a",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "e458dd459be89521",
+        "name": "LOG",
+        "mode": "link",
+        "links": [
+            "740e196b4d9d3d1e"
+        ],
+        "x": 1875,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "caefb5763f114814",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "LOG",
+        "mode": "link",
+        "links": [
+            "740e196b4d9d3d1e"
+        ],
+        "x": 355,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "2f334a760ed8a539",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "LOG",
+        "mode": "link",
+        "links": [
+            "740e196b4d9d3d1e"
+        ],
+        "x": 355,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "cb96da356b06c55b",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "Stato Macchina",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1500,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "1c6fca34f9d31c53",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato macchina",
+        "func": "let stato = flow.get(\"statoMacchina\") || \"Sconosciuto\";\n/*\nlet plc = flow.get(\"connessionePLC\") ? \"Connesso\" : \"Disconnesso\";\nlet esp = flow.get(\"connessioneESP\") ? \"Connesso\" : \"Disconnesso\";\nlet pi = flow.get(\"connessionePI\") ? \"Connesso\" : \"Disconnesso\";*/\n\nmsg.payload = `Stato Macchina: ${stato}`\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1060,
+        "wires": [
+            [
+                "cb96da356b06c55b",
+                "1e6e60061038e4e5"
+            ]
+        ]
+    },
+    {
+        "id": "f7fa94a49746171f",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1060,
+        "wires": [
+            [
+                "1c6fca34f9d31c53"
+            ]
+        ]
+    },
+    {
+        "id": "161be12378996f66",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "Stato PLC",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1470,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "9dc5175a83a212da",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato PLC",
+        "func": "//let stato = flow.get(\"statoMacchina\") || \"Sconosciuto\";\n\nlet plc = flow.get(\"connessionePLC\") ? \"Connesso\" : \"Disconnesso\";\n//let esp = flow.get(\"connessioneESP\") ? \"Connesso\" : \"Disconnesso\";\n//let pi = flow.get(\"connessionePI\") ? \"Connesso\" : \"Disconnesso\";\n\nmsg.payload = `Stato PLC: ${plc}`\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 1160,
+        "wires": [
+            [
+                "161be12378996f66",
+                "f37c364fe8afe9e0"
+            ]
+        ]
+    },
+    {
+        "id": "fc40bff9c62c627e",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1160,
+        "wires": [
+            [
+                "9dc5175a83a212da"
+            ]
+        ]
+    },
+    {
+        "id": "4f19dadf3a188c5d",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "Stato ESP",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1470,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "fe10c012e3780bf3",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato ESP",
+        "func": "//let stato = flow.get(\"statoMacchina\") || \"Sconosciuto\";\n\n//let plc = flow.get(\"connessionePLC\") ? \"Connesso\" : \"Disconnesso\";\nlet esp = flow.get(\"connessioneESP\") ? \"Connesso\" : \"Disconnesso\";\n//let pi = flow.get(\"connessionePI\") ? \"Connesso\" : \"Disconnesso\";\n\nmsg.payload = `Stato ESP: ${esp}`\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 1260,
+        "wires": [
+            [
+                "4f19dadf3a188c5d",
+                "b4140a7428747dbd"
+            ]
+        ]
+    },
+    {
+        "id": "1bc782e1daaa08f0",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1260,
+        "wires": [
+            [
+                "fe10c012e3780bf3"
+            ]
+        ]
+    },
+    {
+        "id": "6e40cf58846b8682",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "Stato Pi",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1440,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "a909db40f12413f5",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato Pi",
+        "func": "//let stato = flow.get(\"statoMacchina\") || \"Sconosciuto\";\n\n//let plc = flow.get(\"connessionePLC\") ? \"Connesso\" : \"Disconnesso\";\n//let esp = flow.get(\"connessioneESP\") ? \"Connesso\" : \"Disconnesso\";\nlet pi = flow.get(\"connessionePI\") ? \"Connesso\" : \"Disconnesso\";\n\nmsg.payload = `Stato Pi5: ${pi}`\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 1360,
+        "wires": [
+            [
+                "6e40cf58846b8682",
+                "c0834bd1086a95a8"
+            ]
+        ]
+    },
+    {
+        "id": "a78a70bd7155150d",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1360,
+        "wires": [
+            [
+                "a909db40f12413f5"
+            ]
+        ]
+    },
+    {
+        "id": "1e6e60061038e4e5",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato macchina",
+        "func": "let stato = flow.get(\"statoMacchina\") || \"Sconosciuto\";\n\nif(stato == 'Attivo'){\n    msg.payload = 1\n    return msg\n}\nif(stato == 'Fermo'){\n    msg.payload = 0\n    return msg\n}\nif(stato == 'Sconosciuto'){\n    msg.payload = 2\n    return msg\n}\nif(stato == 'Emergenza'){\n    let ledstatus = context.get(\"ledstatus\") || false;\n    ledstatus = !ledstatus;\n    context.set(\"ledstatus\", ledstatus);\n\n    msg.payload = ledstatus;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 1020,
+        "wires": [
+            [
+                "a8b34a92c50f35fd"
+            ]
+        ]
+    },
+    {
+        "id": "a8b34a92c50f35fd",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 4,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "2",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led stato",
+        "x": 1660,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "f37c364fe8afe9e0",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato PLC",
+        "func": "let plc = flow.get(\"connessionePLC\") ? \"Connesso\" : \"Disconnesso\";\n\nif(plc == 'Connesso'){\n    msg.payload = 1\n    return msg\n}\nif (plc == 'Disconnesso'){\n    msg.payload = 0\n    return msg\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 1120,
+        "wires": [
+            [
+                "0c6f46648f30deea"
+            ]
+        ]
+    },
+    {
+        "id": "0c6f46648f30deea",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 6,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led PLC",
+        "x": 1620,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "b4140a7428747dbd",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato ESP",
+        "func": "let esp = flow.get(\"connessioneESP\") ? \"Connesso\" : \"Disconnesso\";\n\nif(esp == 'Connesso'){\n    msg.payload = 1\n    return msg\n}\nif (esp == 'Disconnesso'){\n    msg.payload = 0\n    return msg\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 1220,
+        "wires": [
+            [
+                "9c8247da6ab7fe13"
+            ]
+        ]
+    },
+    {
+        "id": "9c8247da6ab7fe13",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 8,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led ESP",
+        "x": 1620,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "c0834bd1086a95a8",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Stato ESP",
+        "func": "let pi = flow.get(\"connessionePI\") ? \"Connesso\" : \"Disconnesso\";\n\nif(pi == 'Connesso'){\n    msg.payload = 1\n    return msg\n}\nif (pi == 'Disconnesso'){\n    msg.payload = 0\n    return msg\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 1320,
+        "wires": [
+            [
+                "e4de848930704d08"
+            ]
+        ]
+    },
+    {
+        "id": "e4de848930704d08",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 10,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "0",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led Pi",
+        "x": 1590,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "b6bbc8bdbbf453a1",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Temperatura",
+        "func": "let t = flow.get('last_temp') || 'N/D';\n\nif(t < 40){\n    msg.payload = \"OK\"\n}\nelse if(t >= 40 && t < 60){\n    msg.payload = \"Elevata\"\n}\nelse if(t >= 60){\n    msg.payload = \"Critica\"\n}\nelse{\n    msg.payload = \"N/A\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 1460,
+        "wires": [
+            [
+                "39da363edd5c673d",
+                "5f62f71b87787bb3"
+            ]
+        ]
+    },
+    {
+        "id": "fbe53b703360dd7b",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1460,
+        "wires": [
+            [
+                "b6bbc8bdbbf453a1"
+            ]
+        ]
+    },
+    {
+        "id": "39da363edd5c673d",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 13,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "OK",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Elevata",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "Critica",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "N/A",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led stato temp",
+        "x": 1480,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "3d021bb204cff094",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "name": "Stato Umidità",
+        "label": "",
+        "format": "Stato Umidità: {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1460,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "e9351af71acc0c5e",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Umidità",
+        "func": "let h = flow.get('last_hum') || 'N/D';\n\nif(h < 70){\n    msg.payload = \"OK\"\n}\nelse if(h >= 70 && h < 85){\n    msg.payload = \"Elevata\"\n}\nelse if(h >= 85){\n    msg.payload = \"Critica\"\n} \nelse{\n    msg.payload = \"N/A\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 1560,
+        "wires": [
+            [
+                "3d021bb204cff094",
+                "c3cda767bf9615a8"
+            ]
+        ]
+    },
+    {
+        "id": "813af4bffc0e7cdf",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1560,
+        "wires": [
+            [
+                "e9351af71acc0c5e"
+            ]
+        ]
+    },
+    {
+        "id": "68750d72afbf61f5",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 16,
+        "width": 5,
+        "height": 1,
+        "name": "Stato Gas",
+        "label": "",
+        "format": "Stato Presenza Gas: {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1420,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "b4206d08555dcf25",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Gas",
+        "func": "let g = flow.get('last_gas') || 'N/D';\n\nif(g < 200){\n    msg.payload = \"OK\"\n}\nelse if(g >= 200 && g < 300){\n    msg.payload = \"Elevato\"\n}\nelse if(g >= 300){\n    msg.payload = \"Critico\"\n}\nelse{\n    msg.payload = \"N/A\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 1660,
+        "wires": [
+            [
+                "68750d72afbf61f5",
+                "7b186ccf69a2058a"
+            ]
+        ]
+    },
+    {
+        "id": "ba6d1aedd8ddcabc",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1660,
+        "wires": [
+            [
+                "b4206d08555dcf25"
+            ]
+        ]
+    },
+    {
+        "id": "c3cda767bf9615a8",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 15,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "OK",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Elevata",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "Critica",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "N/A",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led stato hum",
+        "x": 1460,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "7b186ccf69a2058a",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 17,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "OK",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Elevato",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "Critico",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "N/A",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led stato gas",
+        "x": 1430,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "8f31b6c97d9b5eb7",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 18,
+        "width": 5,
+        "height": 1,
+        "name": "Stato Vibrazioni",
+        "label": "",
+        "format": "Stato Vibrazioni: {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1460,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "776b2db5ba48054d",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "Vibrazioni",
+        "func": "let v = flow.get('last_vib') || 'N/D';\n\nif(v == \"Alte\"){\n    msg.payload = \"Elevate\"\n}\nelse if(v == \"Basse\"){\n    msg.payload = \"OK\"\n}\nelse{\n    msg.payload = \"N/A\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 1760,
+        "wires": [
+            [
+                "8f31b6c97d9b5eb7",
+                "1e74618efb357aa1"
+            ]
+        ]
+    },
+    {
+        "id": "9046b22a84cf0aa0",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1150,
+        "y": 1760,
+        "wires": [
+            [
+                "776b2db5ba48054d"
+            ]
+        ]
+    },
+    {
+        "id": "1e74618efb357aa1",
+        "type": "ui_led2",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "order": 19,
+        "group": "8bed27519d2d7203",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "property": "payload",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "OK",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Elevate",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "N/A",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "led stato vib",
+        "x": 1450,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "5f62f71b87787bb3",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 12,
+        "width": 5,
+        "height": 1,
+        "name": "Stato Temperatura",
+        "label": "",
+        "format": "Stato Temperatura : {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1490,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d0a2204b0ed16fdf",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "3670826c7aa60691",
+        "group": "52ba154aabf085a4",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Stato Temperatura",
+        "label": "",
+        "format": "Temperatura attuale: {{msg.payload}}°C",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1490,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "229e237a2c811d4e",
+        "type": "ui_button",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "",
+        "group": "2776070ba1f358a9",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "passthru": false,
+        "label": "START",
+        "tooltip": "Fai partire il ciclo macchina.",
+        "color": "green",
+        "bgcolor": "",
+        "className": "",
+        "icon": "play_arrow",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1860,
+        "y": 1540,
+        "wires": [
+            [
+                "88579d83bbba6752"
+            ]
+        ]
+    },
+    {
+        "id": "d3a530bb79df4066",
+        "type": "ui_button",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "",
+        "group": "2776070ba1f358a9",
+        "order": 2,
+        "width": 9,
+        "height": 1,
+        "passthru": false,
+        "label": "STOP",
+        "tooltip": "Ferma il ciclo macchina.",
+        "color": "red",
+        "bgcolor": "",
+        "className": "",
+        "icon": "stop",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1850,
+        "y": 1580,
+        "wires": [
+            [
+                "b9855bd053997e9b"
+            ]
+        ]
+    },
+    {
+        "id": "88579d83bbba6752",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "START CYCLE",
+        "mode": "link",
+        "links": [
+            "63829463197fe42d"
+        ],
+        "x": 1965,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "b9855bd053997e9b",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "STOP CYCLE",
+        "mode": "link",
+        "links": [
+            "cbf918f86bd56ea5"
+        ],
+        "x": 1945,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "63829463197fe42d",
+        "type": "link in",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "START CYCLE IN",
+        "links": [
+            "88579d83bbba6752"
+        ],
+        "x": 275,
+        "y": 1100,
+        "wires": [
+            [
+                "d4d28d457baba0d4"
+            ]
+        ]
+    },
+    {
+        "id": "cbf918f86bd56ea5",
+        "type": "link in",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "STOP CYCLE IN",
+        "links": [
+            "b9855bd053997e9b"
+        ],
+        "x": 265,
+        "y": 1220,
+        "wires": [
+            [
+                "a093a51f6da6b681"
+            ]
+        ]
+    },
+    {
+        "id": "5d4d64f63a85c6de",
+        "type": "ui_text_input",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "",
+        "label": "ChatID Manuale",
+        "tooltip": "Inserisci il tuo ChatID manualmente.",
+        "group": "2776070ba1f358a9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "100",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1880,
+        "y": 1760,
+        "wires": [
+            [
+                "1a6ee0bab1b60d3b"
+            ]
+        ]
+    },
+    {
+        "id": "4b095132ee88406e",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "function 1",
+        "func": "let autoChatId = flow.get('autoChatId');\nlet manualChatId = flow.get('manualChatId');\nlet id = msg.payload.chatId;\n\nif(autoChatId){\n    flow.set('telegramChatId', id);\n} else {\n    flow.set('telegramChatId', manualChatId);\n}\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2060,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74e78f1e90cb85a2",
+        "type": "telegram receiver",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "",
+        "bot": "73a82d198a1be3d8",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 1890,
+        "y": 1700,
+        "wires": [
+            [
+                "4b095132ee88406e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4c437069bf507aee",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "group": "2776070ba1f358a9",
+        "order": 5,
+        "width": 9,
+        "height": 1,
+        "name": "chat id rilevato",
+        "label": "",
+        "format": "ChatID attuale: {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 2160,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "22eead1518e26610",
+        "type": "ui_switch",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "toggle autoChatId",
+        "label": "Auto ChatID",
+        "tooltip": "Decidi se rilevare il ChatID in automatico dall'ultimo messaggio o inserirlo manualmente.",
+        "group": "2776070ba1f358a9",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1890,
+        "y": 1640,
+        "wires": [
+            [
+                "320f90d19d60028f"
+            ]
+        ]
+    },
+    {
+        "id": "320f90d19d60028f",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "Set autoChatId",
+        "func": "/*if(msg.payload == 1){\n    msg.payload = \"ON\"\n}\nif(msg.payload == 0){\n    msg.payload = \"OFF\"\n}*/\nflow.set('autoChatId', msg.payload);",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a6ee0bab1b60d3b",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "Set manualChatId",
+        "func": "flow.set('manualChatId',msg.payload)\nlet autoChatId = flow.get('autoChatId')\n\nif(autoChatId === false){\n    flow.set('telegramChatId', msg.payload);\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62acae9912e79cb8",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "function 2",
+        "func": "let chatId = flow.get('telegramChatId');\n/*\nif(autoChatId == \"ON\"){\n    //msg.payload = msg.payload.chatId;\n    return autochat\n}\nif(autoChatId == \"OFF\"){\n    return flow.get('telegramChatId');\n}*/\nmsg.payload = chatId;\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2000,
+        "y": 1820,
+        "wires": [
+            [
+                "4c437069bf507aee"
+            ]
+        ]
+    },
+    {
+        "id": "290fbcc14b9dfa48",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1870,
+        "y": 1820,
+        "wires": [
+            [
+                "62acae9912e79cb8"
+            ]
+        ]
+    },
+    {
+        "id": "9d4b30494ed0c92c",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "group": "2776070ba1f358a9",
+        "order": 6,
+        "width": 9,
+        "height": 1,
+        "name": "info autochatid",
+        "label": "",
+        "format": "Ricorda di inviare un messaggio al Bot dopo aver impostato l'auto chatID.",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Narrow,Nimbus Sans L,sans-serif",
+        "fontSize": "15",
+        "color": "#000000",
+        "x": 2080,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "c8f53fa6c7112096",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "Popola tabella",
+        "func": "let cmds = flow.get('cmds') || [];\n\nlet tableData = cmds.map(riga => {\n    let parts = riga.split(' - ');\n    return {\n        Timestamp: parts[0] || \"\",\n        Comando: parts[1] || \"\",\n        ChatId: parts[2] || \"\"\n    };\n}).reverse(); // per far popolare la tabella dall alto verso il basso\n\nmsg.payload = tableData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1960,
+        "y": 1940,
+        "wires": [
+            [
+                "a8a01a53e57d568c"
+            ]
+        ]
+    },
+    {
+        "id": "f29d50119a77a969",
+        "type": "inject",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1890,
+        "y": 1880,
+        "wires": [
+            [
+                "9565ef670065a6ed"
+            ]
+        ]
+    },
+    {
+        "id": "9565ef670065a6ed",
+        "type": "function",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "Righe vuote on start",
+        "func": "let placeholder = [];\n\nfor (let i = 0; i < 20; i++) {\n    placeholder.push({\n        Timestamp: \" \",\n        Evento: \" \"\n    });\n}\n\nmsg.payload = placeholder;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 1880,
+        "wires": [
+            [
+                "a8a01a53e57d568c"
+            ]
+        ]
+    },
+    {
+        "id": "730fdaaf00c5ac1c",
+        "type": "link in",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "name": "LOG IN",
+        "links": [
+            "4e00d0ff9da953bf",
+            "2830f4cc043b1f8c",
+            "44ea33946473afb1",
+            "715c3ee095525838",
+            "86f45386315f1b9f",
+            "4e71b494c38bde29"
+        ],
+        "x": 1835,
+        "y": 1940,
+        "wires": [
+            [
+                "c8f53fa6c7112096"
+            ]
+        ]
+    },
+    {
+        "id": "4e71b494c38bde29",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "CMD",
+        "mode": "link",
+        "links": [
+            "730fdaaf00c5ac1c"
+        ],
+        "x": 295,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "2830f4cc043b1f8c",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "CMD",
+        "mode": "link",
+        "links": [
+            "730fdaaf00c5ac1c"
+        ],
+        "x": 295,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "715c3ee095525838",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "CMD",
+        "mode": "link",
+        "links": [
+            "730fdaaf00c5ac1c"
+        ],
+        "x": 295,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "86f45386315f1b9f",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "CMD",
+        "mode": "link",
+        "links": [
+            "730fdaaf00c5ac1c"
+        ],
+        "x": 165,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "44ea33946473afb1",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "CMD",
+        "mode": "link",
+        "links": [
+            "730fdaaf00c5ac1c"
+        ],
+        "x": 165,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "4e00d0ff9da953bf",
+        "type": "link out",
+        "z": "c97341d47de293e5",
+        "g": "2f95189a0270d67e",
+        "name": "CMD",
+        "mode": "link",
+        "links": [
+            "730fdaaf00c5ac1c"
+        ],
+        "x": 165,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "a8a01a53e57d568c",
+        "type": "ui_table",
+        "z": "c97341d47de293e5",
+        "g": "08fdb6a16aa44cd6",
+        "group": "2776070ba1f358a9",
+        "name": "Tabella comandi",
+        "order": 7,
+        "width": 9,
+        "height": 3,
+        "columns": [
+            {
+                "field": "Timestamp",
+                "title": "Timestamp",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Comando",
+                "title": "Comando",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "ChatId",
+                "title": "ChatId",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 2160,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "7810e5ebe356fd6e",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "dummySpacer",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1620,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "60352cddde227f27",
+        "type": "ui_template",
+        "z": "c97341d47de293e5",
+        "g": "7d3196b9a1c7221c",
+        "group": "",
+        "name": "Arkeos Custom CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n\n    * {\n        box-sizing: border-box;\n        font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"Inter\", \"Segoe UI\", sans-serif;\n        -webkit-user-select: none !important;\n        user-select: none !important;\n        transition: all 0.3s ease;\n    }\n\n    body {\n        margin: 0;\n        padding: 0;\n        background: linear-gradient(135deg, #f2f6fb, #dce9f7); //ORIGINALE\n        //background: black !important;\n        //background: linear-gradient(135deg, #cde5f9, #e3f0fd);\n        //background: linear-gradient(135deg, #d4f1ff 0%, #a7e0ff 50%, #c0ecff 100%);\n        color: #1c1c1e;\n        -webkit-touch-callout: none;\n        font-smoothing: antialiased;\n        //overflow: hidden !important\n    }\n\n    /* Toolbar */\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background: transparent !important;\n        box-shadow: none !important;\n        color: #1c1c1e;\n    }\n\n    .nr-dashboard-theme md-toolbar .md-toolbar-tools {\n        font-weight: 600;\n        font-size: 18px;\n    }\n\n    /* Card effetto vetro stile Apple */\n    ui-card-panel,\n    .nr-dashboard-theme ui-card-panel {\n        background: rgba(255, 255, 255, 0.4) !important;\n        backdrop-filter: blur(20px);\n        -webkit-backdrop-filter: blur(20px);\n        border-radius: 20px !important;\n        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);\n        border: 1px solid rgba(255, 255, 255, 0.3);\n        //border: 1px solid rgba(10, 10, 10, 0.3);\n        padding: 10px;\n    }\n\n    .md-card.md-default-theme,\n    md-card {\n        border-radius: 20px !important;\n        background: transparent !important;\n    }\n\n    /* Pulsanti */\n    .nr-dashboard-theme .nr-dashboard-button .md-button,\n    .md-button {\n        background: rgba(255, 255, 255, 0.2) !important;\n        border-radius: 12px !important;\n        color: #1c1c1e !important;\n        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);\n    }\n\n    .md-button:hover {\n        background: rgba(255, 255, 255, 0.4) !important;\n        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);\n    }\n\n    /* Switch */\n    .nr-dashboard-switch.ng-scope {\n        background: rgba(255, 255, 255, 0.2) !important;\n        border-radius: 20px !important;\n    }\n\n    .nr-dashboard-switch.ng-scope:hover {\n        background: rgba(255, 255, 255, 0.4) !important;\n    }\n\n    /* Titolo della card */\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(0, 0, 0, 0.6);\n        font-weight: 600;\n        margin-bottom: 8px;\n    }\n\n    /* Sezione interna */\n    .nr-dashboard-cardpanel layout-column {\n        background-color: rgba(255, 255, 255, 0.2) !important;\n        border-radius: 15px !important;\n        padding: 10px;\n    }\n    \n    \n    // Template overflow \n    .nr-dashboard-template {\n        overflow-y: visible;\n    }\n    \n</style>\n\n<script>\n    document.ontouchmove = function (e) {\n        e.preventDefault();\n    }\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 1160,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0e7444d1f7ccf4b",
+        "type": "ui_template",
+        "z": "c97341d47de293e5",
+        "d": true,
+        "g": "7d3196b9a1c7221c",
+        "group": "",
+        "name": "Tabelle CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n/* Stile Apple trasparente e pulito per ui_table */\n.nr-dashboard-ui_table .tabulator {\n    background: rgba(255 255 255 / 0.3); /* sfondo trasparente chiaro */\n    backdrop-filter: blur(15px);\n    -webkit-backdrop-filter: blur(15px);\n    border-radius: 16px;\n    box-shadow: 0 6px 15px rgba(0,0,0,0.1);\n    font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"Inter\", \"Segoe UI\", sans-serif;\n    color: #1c1c1e;\n    overflow-x: hidden !important; /* niente scroll orizzontale */\n}\n\n/* Evita overflow orizzontale anche nei contenitori interni */\n.nr-dashboard-ui_table .tabulator-tableHolder {\n    overflow-x: hidden !important;\n}\n\n/* Intestazione della tabella */\n.nr-dashboard-ui_table .tabulator-header {\n    background: rgba(255 255 255 / 0.25);\n    border-bottom: 1px solid rgba(255 255 255 / 0.5);\n    color: #1c1c1e;\n    font-weight: 600;\n    font-size: 14px;\n}\n\n/* Titolo colonne */\n.nr-dashboard-ui_table .tabulator-col-title {\n    user-select: none;\n}\n\n/* Righe tabella */\n.nr-dashboard-ui_table .tabulator-row {\n    background: rgba(255 255 255 / 0.15);\n    transition: background 0.25s ease;\n    cursor: default;\n    border-radius: 10px;\n    margin: 4px 0;\n}\n\n/* Hover su riga */\n.nr-dashboard-ui_table .tabulator-row:hover {\n    background: rgba(255 255 255 / 0.35);\n}\n\n/* Celle */\n.nr-dashboard-ui_table .tabulator-cell {\n    border: none !important;\n    padding: 8px 12px !important;\n    font-size: 13px;\n    color: #1c1c1e;\n}\n\n/* Rimuovi linee orizzontali tra le celle */\n.nr-dashboard-ui_table .tabulator-table .tabulator-row .tabulator-cell {\n    border-bottom: none !important;\n}\n\n/* Nessun bordo per colonne e contenuti */\n.nr-dashboard-ui_table .tabulator-col,\n.nr-dashboard-ui_table .tabulator-col-content {\n    border: none !important;\n}\n\n/* Evita overflow nella riga header */\n.nr-dashboard-ui_table .tabulator-headers {\n    overflow-x: hidden !important;\n}\n\n/* Scrollbar sottile e chiara (opzionale) */\n.nr-dashboard-ui_table .tabulator-tableHolder::-webkit-scrollbar {\n    height: 6px;\n}\n.nr-dashboard-ui_table .tabulator-tableHolder::-webkit-scrollbar-thumb {\n    background-color: rgba(0,0,0,0.1);\n    border-radius: 10px;\n}\n\n/* Freccette di ordinamento meno invasive */\n.nr-dashboard-ui_table .tabulator-arrow {\n    opacity: 0.3;\n    transition: opacity 0.3s;\n}\n.nr-dashboard-ui_table .tabulator-col:hover .tabulator-arrow {\n    opacity: 1;\n}\n</style>\n\n<script>\n    // Se vuoi qualche script per gestire tabelle o altro, scrivimi pure!\n    // Al momento non serve script per questo stile CSS.\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 1410,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cafeadfbf7ec5d4b",
+        "type": "ui_text",
+        "z": "c97341d47de293e5",
+        "g": "b9b951e18379f8c6",
+        "group": "8bed27519d2d7203",
+        "order": 20,
+        "width": 6,
+        "height": 1,
+        "name": "dummySpacer",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1620,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "a12714661ad2a129",
+        "type": "switch",
+        "z": "c97341d47de293e5",
+        "g": "6d5b2e95145a38d4",
+        "name": "Check Soglia Temp",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "40",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "60",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "ab7b1a80b15830f3"
+            ],
+            [
+                "39a34134fb55b376"
+            ]
+        ]
+    },
+    {
+        "id": "fd6cc0bba92fa9d7",
+        "type": "ui_spacer",
+        "z": "c97341d47de293e5",
+        "name": "spacer",
+        "group": "f8c05a80b15f75c2",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e1691b8d2c84cd1a",
+        "type": "ui_spacer",
+        "z": "c97341d47de293e5",
+        "name": "spacer",
+        "group": "f8c05a80b15f75c2",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d07fea39010a7a60",
+        "type": "ui_spacer",
+        "z": "c97341d47de293e5",
+        "name": "spacer",
+        "group": "f8c05a80b15f75c2",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "86f88439c7c49181",
+        "type": "ui_spacer",
+        "z": "c97341d47de293e5",
+        "name": "spacer",
+        "group": "ee2ffdfb60ccc940",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "26f0efcf7b457651",
+        "type": "ui_spacer",
+        "z": "c97341d47de293e5",
+        "name": "spacer",
+        "group": "ee2ffdfb60ccc940",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9e2eeb4dc8076cc7",
+        "type": "ui_spacer",
+        "z": "c97341d47de293e5",
+        "name": "spacer",
+        "group": "ee2ffdfb60ccc940",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "mqtt_broker",
+        "type": "mqtt-broker",
+        "name": "Broker MQTT",
+        "broker": "3384de29cd9e443b81893a90b45ba5d0.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "73a82d198a1be3d8",
+        "type": "telegram bot",
+        "botname": "arkeosbot1",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": 300,
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": 6667,
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "0.0.0.0",
+        "localbotport": 8443,
+        "publicbotport": 8443,
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "8bed27519d2d7203",
+        "type": "ui_group",
+        "name": "Welcome",
+        "tab": "6f1a961de7a72ce7",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a0db829528203303",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://192.168.0.76:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "df0b04f7244397bb",
+        "type": "ui_group",
+        "name": "Umidità",
+        "tab": "6f1a961de7a72ce7",
+        "order": 3,
+        "disp": false,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69e77f8ac5b16d90",
+        "type": "ui_group",
+        "name": "Gas",
+        "tab": "6f1a961de7a72ce7",
+        "order": 4,
+        "disp": false,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "52ba154aabf085a4",
+        "type": "ui_group",
+        "name": "Temperatura",
+        "tab": "6f1a961de7a72ce7",
+        "order": 2,
+        "disp": false,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f8c05a80b15f75c2",
+        "type": "ui_group",
+        "name": "Allarmi",
+        "tab": "6f1a961de7a72ce7",
+        "order": 7,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee2ffdfb60ccc940",
+        "type": "ui_group",
+        "name": "Log eventi",
+        "tab": "6f1a961de7a72ce7",
+        "order": 8,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2776070ba1f358a9",
+        "type": "ui_group",
+        "name": "Comandi Manuali",
+        "tab": "6f1a961de7a72ce7",
+        "order": 9,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6f1a961de7a72ce7",
+        "type": "ui_tab",
+        "name": "Arkeos",
+        "icon": "dashboard",
+        "order": 1
+    }
+]
