@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo_doppio.png" alt="Arkeos logo" width="500"/>
+  <img src="docs/logo_singolo.png" alt="Arkeos logo" width="400"/>
 </p>
 
 <h1 align="center">Arkeos</h1>
