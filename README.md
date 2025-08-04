@@ -35,7 +35,7 @@
 🖼️ _Inserisci qui uno schema dell’architettura in PNG/SVG_  
 (esempio: `docs/architettura.png`)
 
-![Architettura](https://i.imgur.com/ZU1MPEZ.png)
+![Architettura](docs/architettura.png)
 
 ---
 
