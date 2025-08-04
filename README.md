@@ -69,13 +69,18 @@ git clone https://github.com/hert1zm/Arkeos.git
 6. Importare `Arkeos/nodered/arkeos-flows.json`
 7. Cliccare su **Importa** e poi su **Deploy**
 
-> ✔️ Assicurarsi infine di avere le corrette misure della dashboard impostate su Node-RED per garantire un'esperienza ottimale di visualizzazione:
+> ✔️ Assicurarsi infine di avere le corrette impostazioni sulla dashboard di Node-RED per garantire un'esperienza ottimale di visualizzazione:
 
 Dal menù di destra: **Dashboard** > **Site** : In fondo alla finestra
 - **1x1 Widget Size** 46 46
 - **Widget Spacing** 6 6
 - **Group Padding** 0 0
 - **Group Spacing** 30 30
+
+Dal menù di destra: **Dashboard** > **Theme**
+- **Style** Light (default)
+- **Colour** #0094CE
+- **Font** System Font (default)
   
 ---
 
