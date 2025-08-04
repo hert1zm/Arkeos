@@ -32,9 +32,6 @@
 - **Node-RED** come orchestratore visuale, event-driven
 - **Telegram Bot** per notifiche e comandi remoti
 
-🖼️ _Inserisci qui uno schema dell’architettura in PNG/SVG_  
-(esempio: `docs/architettura.png`)
-
 ![Architettura](docs/architettura.png)
 
 ---
